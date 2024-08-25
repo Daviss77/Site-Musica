@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/*Caixa Principal*/
+.Container{
+    display: flex;
+    background-color: cadetblue;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 700px;
+}
+/*Caixas filhos*/
+#item{
+height: 700px;
+width: 800px;
+}
+/*Cores fundos caixas filhos*/
+.item-1{
+    background-image: linear-gradient(to right, #bee1e2c7,#66d6da, #d2b8f08e )
+}
+.item-2{
+    background-image: linear-gradient(to right,  #dc69e996, #5B11E0);
+}
+/*Estilização Titulo e Objetivo*/
+.title{
+    text-align: center;
+    margin: 4px 0px 15px 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.objetivo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15.5px;
+    margin-left: 10px;
+}
+/*Estilização Caixa Menu*/
+.box-menu{
+    border: solid 2px black;
+    border-radius: 30px;
+    box-shadow: 8px 10px 9px #3341558f ;
+    margin: 40px 10px 5px 250px;
+    padding: 30px;
+    width: 230px;
+    text-align: center;
+}
+/*Menu titulo*/
+.menu{
+    font-family: cursive, Arial, sans-serif;
+}
+/*Botão Click Menu*/
+.bt-click{
+    padding: 9px;
+    margin: 8px;
+    border: 2.5px solid black;
+    border-radius: 100px;
+    cursor: pointer;
+    background-color: #d5eaf0a1;
+}
+.bt-click:hover{
+    color: rgb(255, 255, 0);
+    text-shadow: 1px 1px black;
+    background-color: #a378f3af;
+    transition: 0.5s;
+}
+/*Estilização Caixa Frase*/
+.box-frase{
+    border-left: solid 0.5px black;
+    /*Ajustes larguras e posições*/
+    width: 500px;
+    height: 548px;
+    padding:150px 150px 0px 50px;
+    margin-left: 0px;
+    /*texto*/
+    text-align: center;
+    line-height: 50px;
+    font-size: 22px;
+    color: white;
+}
+hr{
+    border: 1px solid #300b75;
+    margin-left: 180px;
+    width: 145px;
+    text-align: center;
+}
+/*IMAGEM*/
+.sup{
+    margin:10px 0 0px 400px;
+}
+.imgSuperacao{
+    border: 3px solid black;
+    border-radius: 5px;
+    box-shadow: 10px 8px 20px #2e1065;
+    width: 250px;
+    height: 190px;
+    margin:0px 10px 0px 400px;
+}
+/*Cor Negrito*/
+strong{
+    color: black;
+}
+/*Roda Pé*/
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding-top:2px ;
+    height: 29px;
+}
