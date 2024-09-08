@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#cab{
+display: flex;
+justify-content: space-between;
+margin: 2px 3px 0px 5px;
+padding: 0;
+height: 40px;
+align-items: center;
+background-color: rgb(61, 59, 59);
+}
+.bt1{
+    margin: 8px 110px;
+    border-radius: 50px;
+    border: solid 1.5px black;
+    background-color: #a78bfa;
+}
+.item{}
+a{
+    margin: 15px;
+}
+
+#Container{
+    display: flex;
+    border: solid 1px black;
+    background-image: linear-gradient(to bottom, #374151, #e5e7eb, #f7faff, #f3f4f6 );
+    margin: 0 4px;
+    height: 500px;
+}
+
+.info{
+    border: solid 1px black;
+    margin: 10px;
+    width: 500px;
+}
+/* TITULOS DA ESQUERDA E IMAGEM*/
+.topicos{
+    width: 300px;
+    border: solid 1px black;
+}
+.t1{
+    font-size: 80px;
+    margin: 10px 5px 0 10px;
+}
+.t2{
+    font-size: 60px;
+    margin: 2px 5px 0px 20px;
+}
+.t3{
+    font-size: 40px;
+    margin: 2px 5px 0px 60px;
+}
+.t4{
+    font-size: 30px;
+    margin: 2px 5px 0px 100px;
+}
+.t5{
+    font-size: 26px;
+    margin: 2px 5px 0px 120px;
+}
+.t6{
+    font-size: 19px;
+    margin: 2px 5px 0px 150px;
+}
+.t7{
+    font-size: 25px;
+    margin: 2px 5px 0px 170px;
+}
+.funil{
+    width: 170px;
+    height: 110px;
+    margin:0 5px 0 120px ;
+    
+}
+/*-----------------------------*/
+
+/*PERSONALIZAÇÃO DAS LETRAS E TITULOS*/
+.titulo{
+    text-align: center;
+}
+.bandeira-uk{
+    width: 230px;
+    height: 500px;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding-top:2px ;
+    height: 29px;
+}
